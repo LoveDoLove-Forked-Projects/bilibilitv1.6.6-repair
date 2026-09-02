@@ -52,7 +52,7 @@ public final class adq extends ady {
     private boolean l;
     private int i = 1;
     private boolean j = true;
-    private RegionApiManager.ListOrder m = RegionApiManager.ListOrder.DEFAULT;
+    private RegionApiManager.ListOrder m = RegionApiManager.ListOrder.VIEW;
 
     public final j a() {
         return this.c;
@@ -192,7 +192,7 @@ public final class adq extends ady {
         }
         r11.a(new n());
         i();
-        n();
+        o();//n();
     }
 
     /* compiled from: BL */

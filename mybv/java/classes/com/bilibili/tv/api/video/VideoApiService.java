@@ -25,10 +25,10 @@ public interface VideoApiService {
     @POST(value = "/x/v2/view/ad/dislike")
     vp<Void> dislike(@FieldMap Map<String, String> map);
 
-    @GET(value = "/x/v2/view")
+    @GET(value = "/inter/v2/view")
     vp<GeneralResponse<VideoJumpPgc>> getJumpPgc(@QueryMap VideoParamsMapV2 videoParamsMapV2, @Query(value = "access_key") String str);
 
-    @GET(value = "/x/v2/view")
+    @GET(value = "/inter/v2/view")
     vp<GeneralResponse<BiliVideoDetail>> getVideoDetails(@QueryMap VideoParamsMapV2 videoParamsMapV2, @Query(value = "access_key") String str);
 
     /* compiled from: BL */

@@ -71,7 +71,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/GET;
-        value = "/x/v2/view"
+        value = "/inter/v2/view"
     .end annotation
 .end method
 
@@ -101,6 +101,6 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/GET;
-        value = "/x/v2/view"
+        value = "/inter/v2/view"
     .end annotation
 .end method

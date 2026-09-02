@@ -62,6 +62,7 @@ public class MainApplication extends Application {
     static {
         System.setProperty("java.net.preferIPv6Addresses", "false");
         System.setProperty("java.net.preferIPv4Stack", "true");
+        System.setProperty("http.agent", bl.axo.L(null));
     }
 
     public static MainApplication a() {

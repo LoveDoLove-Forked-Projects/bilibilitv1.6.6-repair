@@ -89,7 +89,7 @@
     iput-boolean v0, p0, Lbl/adq;->j:Z
 
     .line 55
-    sget-object v0, Lcom/bilibili/tv/ui/area/RegionApiManager$ListOrder;->DEFAULT:Lcom/bilibili/tv/ui/area/RegionApiManager$ListOrder;
+    sget-object v0, Lcom/bilibili/tv/ui/area/RegionApiManager$ListOrder;->VIEW:Lcom/bilibili/tv/ui/area/RegionApiManager$ListOrder;
 
     iput-object v0, p0, Lbl/adq;->m:Lcom/bilibili/tv/ui/area/RegionApiManager$ListOrder;
 
@@ -439,7 +439,7 @@
     invoke-virtual {p0}, Lbl/adq;->i()V
 
     .line 195
-    invoke-direct {p0}, Lbl/adq;->n()V
+    invoke-virtual {p0}, Lbl/adq;->o()V
 
     .line 196
     return-void

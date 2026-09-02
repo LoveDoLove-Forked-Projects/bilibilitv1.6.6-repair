@@ -1127,7 +1127,7 @@
 
     const-string v2, "skip_categories"
 
-    const-string v3, ""
+    const-string v3, "[]"
 
     invoke-interface {v0, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

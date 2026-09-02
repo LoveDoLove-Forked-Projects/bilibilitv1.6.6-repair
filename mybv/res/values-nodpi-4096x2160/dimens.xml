@@ -4,6 +4,7 @@
     <dimen name="px_10">21.333313px</dimen>
     <dimen name="px_100">213.33334px</dimen>
     <dimen name="px_1000">2133.3281px</dimen>
+    <dimen name="px_1200">2560.0px</dimen>
     <dimen name="px_101">215.46667px</dimen>
     <dimen name="px_102">217.6px</dimen>
     <dimen name="px_103">219.73334px</dimen>
